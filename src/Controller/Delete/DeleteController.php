@@ -31,7 +31,7 @@ class DeleteController extends Controller
                 header("location: delete");
                 exit;
             } catch (\PDOexception $e) {
-                echo "il y a eu un problème" . $e->getCode() . " " . $e->getMessage();
+                $e->getCode() . " " . $e->getMessage();
             }
         }
         /*
@@ -47,7 +47,7 @@ class DeleteController extends Controller
             
         } catch (\PDOException $e) {
 
-            echo "il y a eu un probleme" . $e->getMessage();
+            $e->getMessage();
         }
         include __DIR__ . "/../../../template/delete/delete.html.php";
     }
