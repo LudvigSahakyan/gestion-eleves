@@ -1,0 +1,30 @@
+{
+    "home_read":{
+        "url": "/home",
+        "controller": "Home/HomeController",
+        "action": "read",
+        "method": "get"
+    },
+
+    "insert_stagiaire":{
+        "url": "/insert",
+        "controller": "Insert/InsertController",
+        "action": "new",
+        "method": "get,post"
+    },
+
+    "update_stagiaire":{
+        "url": "/update",
+        "controller": "Update/UpdateController",
+        "action": "update",
+        "method": "get,post"
+    },
+
+    "delete_stagiaire":{
+        "url": "/delete",
+        "controller": "Delete/DeleteController",
+        "action": "delete",
+        "method": "get,post"
+    }
+
+}

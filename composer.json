@@ -1,0 +1,15 @@
+{
+    "name": "administrateur/gestion_eleves",
+
+    "require": {
+        "ext-json": "*",
+        "ext-pdo": "*"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "GestionEleves\\": "src/"
+
+        }
+    }
+}
